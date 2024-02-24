@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-flex {
+  display: flex;
+}
+.tab-menu {
+  width: 600px;
+  height: 400px;
+  margin: 0 auto;
+  border: 2px solid black;
+  margin-top: 250px;
+  border-radius: 20px;
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.tab-menu i {
+  font-size: 40px;
+  cursor: pointer;
+  margin-left: 30px;
+  transition: all 0.5s;
+  margin-top: 40px;
+}
+
+.tab-menu .twit i:hover {
+  color: #08a0e9;
+}
+.tab-menu .face i:hover {
+  color: #0866ff;
+}
+.tab-menu .inst i:hover {
+  color: rgba(221, 42, 123, 1);
+}
+
+.twit .twit-text p {
+  font-size: 20px;
+  width: 300px;
+  margin-left: 100px;
+  margin-top: 100px;
+  position: absolute;
+}
+
+.face .fb-text {
+  font-size: 20px;
+  width: 300px;
+  margin-left: 190px;
+  margin-top: -140px;
+  position: absolute;
+}
+
+.inst .inst-text {
+  font-size: 20px;
+  width: 300px;
+  margin-left: 190px;
+  margin-top: -250px;
+  position: absolute;
+}
