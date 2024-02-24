@@ -9,19 +9,19 @@ let tfb = document.querySelector(".fb-text");
 let instext = document.querySelector(".inst-text");
 
 twit.addEventListener("click", function () {
-  ttwit.classList.remove("d-none");
-  instext.classList.add("d-none");
-  tfb.classList.add("d-none");
+  ttwit.classList.remove("animation");
+  tfb.classList.add("animation");
+  instext.classList.add("animation");
 });
 
 fb.addEventListener("click", function () {
-  ttwit.classList.add("d-none");
-  instext.classList.add("d-none");
-  tfb.classList.remove("d-none");
+  ttwit.classList.add("animation");
+  tfb.classList.remove("animation");
+  instext.classList.add("animation");
 });
 
 inst.addEventListener("click", function () {
-  ttwit.classList.add("d-none");
-  instext.classList.remove("d-none");
-  tfb.classList.add("d-none");
+  ttwit.classList.add("animation");
+  tfb.classList.add("animation");
+  instext.classList.remove("animation");
 });
